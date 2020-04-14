@@ -1,0 +1,17 @@
+{
+  "name": "kar-traffic-fines",
+  "version": "0.0.1",
+  "description": "Simple JSON API to fetch traffic fines for any KA registered vehicle.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "traffic-fines",
+    "karnataka"
+  ],
+  "author": "nikhilnagaraju96@gmail.com",
+  "license": "GPL-2.0-only"
+}
