@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node app.js",
     "serve": "nodemon app.js",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "preversion": "npm run lint",
+    "postversion": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
     "node",
