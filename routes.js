@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 const trafficFinesEndpoint = 'https://www.karnatakaone.gov.in/PoliceCollectionOfFine/FineDetails';
-const regPattern = RegExp(/^ka([0-6][0-9]|70)[a-z]{0,2}[0-9]{4}$/i);
+const regPattern = RegExp(/^ka(?!00)([0-6][0-9]|70)[a-z]{0,2}[0-9]{4}$/i);
 
 router.get('/', (req, res) => {
   res.send({
