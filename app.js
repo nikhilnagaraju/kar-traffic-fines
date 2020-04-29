@@ -27,3 +27,5 @@ try{
   console.error('error in starting server');
   process.exit(2);
 }
+
+module.exports = app;
