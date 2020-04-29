@@ -11,7 +11,8 @@
     "test-dev": "ava --watch",
     "coverage-dev": "nyc ava",
     "coverage": "nyc --reporter=text-summary > coverage.lcov ava",
-    "preversion": "npm run lint"
+    "prerelease": "npm run lint",
+    "release": "standard-version"
   },
   "ava": {
     "serial": false,
@@ -52,6 +53,7 @@
     "esm": "^3.2.25",
     "nodemon": "^2.0.3",
     "nyc": "^15.0.1",
+    "standard-version": "^7.1.0",
     "supertest": "^4.0.2"
   }
 }
