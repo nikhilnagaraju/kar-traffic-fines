@@ -7,8 +7,19 @@
     "start": "node app.js",
     "serve": "nodemon app.js",
     "lint": "eslint ./",
-    "test": "ava test/*.js",
+    "test": "ava",
     "preversion": "npm run lint"
+  },
+  "ava": {
+    "serial": false,
+    "files": [
+      "./test/*.spec.js"
+    ],
+    "require": [
+      "esm"
+    ],
+    "timeout": "10s",
+    "verbose": true
   },
   "keywords": [
     "node",
@@ -35,6 +46,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "nodemon": "^2.0.3"
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
   }
 }
