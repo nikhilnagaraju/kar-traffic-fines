@@ -20,12 +20,8 @@ app.use((req, res, next) => {
   next();
 });
 
-try{
-  app.listen(app.get('port'));
+app.listen(app.get('port'), () => {
   console.log(`server is listening on ${app.get('port')}`);
-}catch(err){
-  console.error('error in starting server');
-  process.exit(2);
-}
+});
 
 module.exports = app;
