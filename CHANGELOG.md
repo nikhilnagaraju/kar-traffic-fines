@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/nikhilnagaraju/kar-traffic-fines/compare/v1.0.0...v1.0.1) (2020-04-29)
+
+
+### Bug Fixes
+
+* Removed unused try/catch ([d86ed44](https://github.com/nikhilnagaraju/kar-traffic-fines/commit/d86ed440b95076887e4243dd0c5801ebeade7c5a))
+
 ## 1.0.0 (2020-04-29)
 
 
