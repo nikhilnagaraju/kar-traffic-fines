@@ -1,5 +1,8 @@
 # kar-traffic-fines 
 
+[![Github CI](https://github.com/nikhilnagaraju/kar-traffic-fines/workflows/Node.js%20CI/badge.svg)](https://github.com/nikhilnagaraju/kar-traffic-fines/actions?query=workflow%3A%22Node.js+CI%22)
+[![dependencies Status](https://david-dm.org/nikhilnagaraju/kar-traffic-fines/status.svg)](https://david-dm.org/nikhilnagaraju/kar-traffic-fines)
+[![devDependencies Status](https://david-dm.org/nikhilnagaraju/kar-traffic-fines/dev-status.svg)](https://david-dm.org/nikhilnagaraju/kar-traffic-fines?type=dev)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-blue.svg)](https://conventionalcommits.org)
 
 Simple **JSON** API to fetch traffic fines for any KA registered vehicle. Can consider this as a simple proxy without CORS Blocking.
